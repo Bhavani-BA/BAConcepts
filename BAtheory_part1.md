@@ -17,7 +17,7 @@ OOA, OOD and Enterprise Analysis
 - PLODATT framework — expansion to be verified from your training material
 - Gap analysis and impact analysis
 
-  #question
+  # Question
   ##. Object-Oriented Approach
 What is it?
 The object-oriented approach is a way of developing a system by organising it around objects that represent real-world things.
