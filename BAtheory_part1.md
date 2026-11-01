@@ -17,7 +17,7 @@
 - PLODATT framework — expansion to be verified from your training material
 - Gap analysis and impact analysis
 
-  # Question
+  
   ## Object-Oriented Approach
   
  # What is it?
@@ -28,28 +28,29 @@
 - Behaviour (methods): Actions it can perform.
 - Hospital appointment example
 
-- # Question
-- ## BA role OOA
-- ### What does a BA do here?
-As a Business Analyst, you help identify:
+
+- # BA role OOA
+- ## What does a BA do here?
+- 
+   As a Business Analyst, you help identify:
 1. What users and business stakeholders need.
 2. Which important objects the system must represent.
 3. What information each object needs.
 4. What actions users need to perform.
 5. What business rules the system must follow
 
-# Question
-## 2. OOA — Object-Oriented Analysis
-### What is OOA?
+# 2. OOA — Object-Oriented Analysis
+
+## What is OOA?
      OOA stands for Object-Oriented Analysis.
 
   It focuses on understanding the business problem and identifying the objects, their responsibilities and their relationships.
 
-# In simple words:
+ In simple words:
 
 OOA asks: What does the business need?
 
-# Example
+ Example
 A hospital currently accepts appointments through phone calls. Patients complain that they cannot easily find available doctors or appointment slots.
 
 As a BA, you speak with patients, receptionists, doctors and hospital management.
@@ -62,12 +63,14 @@ As a BA, you speak with patients, receptionists, doctors and hospital management
 - Notification
 - 
 # You also identify business rules:
+
 - A patient must be registered before booking.
 - A doctor must have an available slot.
 - A slot cannot be booked by two patients at the same time.
 - A successful booking must generate confirmation.
 These findings contribute to the analysis of the required system.
-Typical OOA activities
+
+# Typical OOA activities
 1. Understand the business problem.
 2. Gather and analyse requirements.
 3. Identify objects and their responsibilities.
@@ -76,16 +79,13 @@ Typical OOA activities
 6. Model requirements using appropriate diagrams, such as use case and class diagrams.
 Important: OOA is not the same as coding. It is primarily about analysing the problem and the requirements.
 
-# Question
+
 ## What is OOD
 . OOD — Object-Oriented Design
 
-# What is OOD?
- OOD stands for Object-Oriented Design.
-
  It focuses on how the system should be structured to satisfy the requirements identified during analysis.
 
-# In simple words:
+ In simple words:
 
 OOD asks: How should the system be designed?
 
@@ -101,16 +101,17 @@ OOD asks: How should the system be designed?
 - How the system handles errors and failed payments.
 - 
 - # 4. Object-Oriented Concepts
+- 
 - ##  Class
 - A class is a blueprint for creating objects.
 
-## Example:
+ Example:
 Patient is a class that defines the information and actions associated with patients.
 
-### Object
+## Object
 An object is a specific instance of a class.
 
-# Example:
+ Example:
 A registered patient with Patient ID P101 is an object of the Patient class.
 
 # Remember:
@@ -163,7 +164,7 @@ A system may support a common processPayment() operation, while different paymen
 ## Enterprise analysis
 Helps an organisation understand its business needs, objectives, problems and opportunities before selecting a solution.
 
-# For example
+# for example
 In a pharmaceutical vaccination project, the business objective may be to reduce employee absenteeism. I would understand the existing absenteeism process, analyse the baseline data, identify the desired future state and define KPIs to measure success.
 
 Based on the analysis, the business can evaluate suitable solutions and estimate their costs, benefits and feasibility.
@@ -210,12 +211,18 @@ Requirement analysis means examining requirements to ensure they are clear, comp
 # Characteristics of a good requirement
   A good requirement should be:
   
-- # Clear: Easy to understand.
-- # Complete: Contains the information needed to understand it.
-- # Consistent: Does not conflict with other requirements.
-  # Feasible: Can realistically be implemented.
-- # Testable: Can be verified through testing.
-- # Traceable: Can be linked to its source and related work.
+- # Clear:
+- Easy to understand.
+- # Complete:
+- Contains the information needed to understand it.
+- # Consistent:
+-  Does not conflict with other requirements.
+  # Feasible: 
+  Can realistically be implemented.
+- # Testable:
+-  Can be verified through testing.
+- # Traceable:
+-  Can be linked to its source and related work.
 - 
 # Requirement prioritisation
 # using MOSCOW 
@@ -227,5 +234,64 @@ Requirement analysis means examining requirements to ensure they are clear, comp
 - [ ] For example, in a hospital appointment system, preventing double-booking is essential, whereas customising the screen theme may be a lower-priority enhancement. I can use the MoSCoW technique to classify requirements as Must have, Should have, Could have and Won't have this time.
 - [ ] 
 - [ ] If stakeholders disagree, I facilitate discussion, assess the business impact and document the agreed decision.
+
+ # MVC Architecture
+ # What is MVC?
+    MVC stands for Model–View–Controller.
+
+     It is a software architectural pattern that separates an application's data,
+     user interface and request-handling logic.
+The application displays the result, such as booking confirmation or a message that the selected slot is no longer available.
+
+This is a simplified explanation. The actual responsibilities can vary depending on the system design.
+
+# Why is MVC useful?
+
+- Separates responsibilities.
+- Makes the system easier to maintain.
+- Helps organise the application structure.
+- Allows interface changes without necessarily changing the underlying business rules.
+- Supports more organised development and testing.
+
+# What is the BA's role in MVC?
+
+ A BA is not necessarily responsible for implementing MVC.
+
+The BA should understand the architecture well enough to communicate requirements and collaborate with the technical team.
+
+For example,
+the BA documents:
+- What the patient should see on the booking screen.
+- What validation is required.
+- What business rules determine slot availability.
+- What confirmation or error messages should appear.     
+
+# 0. Gap Analysis
+
+# What is gap analysis?
+Gap analysis compares the current state (AS-IS) with the desired future state (TO-BE) to identify what is missing or needs to change.
+Example: Hospital appointment system
+
+Current state — AS-IS
+- Patients book appointments by telephone.
+- Receptionists manually check doctor availability.
+- Patients may wait on hold.
+- Appointment reminders are sent manually.
+- 
+Future state — TO-BE
+- Patients can book appointments online.
+- Available slots are displayed automatically.
+- The system prevents double-booking.
+- Appointment reminders are sent automatically.
+
+# Steps in gap analysis
+1. Understand the current process.
+2. Define the desired future process.
+3. Compare the two.
+4. Identify gaps and their causes.
+5. Recommend possible changes.
+6. Prioritise the changes.
+7. Document and validate the findings with stakeholders.
+Remember: Gap analysis identifies what is missing. It does not automatically determine the final solution.
 
 
