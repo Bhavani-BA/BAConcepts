@@ -294,4 +294,145 @@ Future state — TO-BE
 7. Document and validate the findings with stakeholders.
 Remember: Gap analysis identifies what is missing. It does not automatically determine the final solution.
 
+# Impact Analysis
+
+ # What is impact analysis?
+   Impact analysis determines how a proposed change may affect existing requirements, 
+   systems, processes, users, costs, risks and timelines.
+
+Example
+
+   The hospital has an appointment booking system. The business requests a new feature: patients should be able to cancel appointments online.
+
+   As a BA, you must investigate the impact before the change is approved.
+
+   Impact analysis helps identify the effects of a proposed change on existing requirements, systems, processes, stakeholders, cost and timeline.
+
+For example, if a hospital wants to introduce online appointment cancellation, I would assess the impact on appointment availability, payment refunds, notifications, reporting and testing.
+
+I would document the affected requirements, dependencies, risks and estimated effort, then discuss the findings with the relevant stakeholders before the change is approved.
+
+#  Strategy Analysis
+Strategy analysis helps an organisation understand its current business situation and determine what changes are needed to achieve future business objectives.
+
+Example: A hospital wants to reduce patient waiting time by introducing online appointment booking.
+
+As a BA, you:
+- Understand the business objectives.
+- Analyse the current situation.
+- Identify business needs.
+- Define the future state.
+- Identify risks and possible solutions.
+- 
+#  Root Cause Analysis
+Root Cause Analysis (RCA) identifies the actual reason behind a problem instead of just treating its symptoms.
+
+Example:
+
+Problem: Patients are frequently missing appointments.
+
+Possible reasons:
+- Patients forget appointment dates.
+- No SMS reminders are sent.
+- Patients cannot easily reschedule.
+- Appointment confirmation is unclear.
+The BA investigates the underlying cause before recommending a solution.
+
+# Fishbone Diagram
+
+Fishbone is also called the Ishikawa diagram or Cause-and-Effect diagram.
+
+It helps identify and organise possible causes of a problem.
+
+# Common categories:
+- People
+- Process
+- Technology
+- Environment
+- Methods
+- Materials
+- 
+Example: If hospital appointment delays are the problem, the BA can investigate whether the causes relate to staff shortages, manual processes, system failures or poor scheduling
+
+# What is Zachman Framework?
+
+The Zachman Framework is an enterprise architecture framework that organises information about an organisation from different perspectives.
+
+It helps understand how business processes, data, people, locations, timing and business objectives are connected.
+
+The Zachman Framework is an enterprise architecture framework that organises business and technology information using six questions: 
+
+# What, How, Where, Who, When and Why.
+
+For example, in a hospital management system, What represents patient data, How represents appointment booking processes, Who represents patients and doctors, and Why represents the business objective of reducing waiting time.
+
+It helps understand the organisation from different perspectives.
+
+#   Decision Analysis
+
+# What is Decision Analysis?
+
+  Decision Analysis is the process of evaluating different alternatives and 
+  selecting the most suitable option based on business needs, cost, risks and benefits.
+
+  BA responsibilities
+1. Identify available options.
+2. Understand stakeholder expectations.
+3. Compare cost and benefits.
+4. Assess feasibility and risks.
+5. Identify dependencies.
+6. Document the comparison.
+7. Present findings to decision-makers.
+
+# . Business Requirements Management
+
+# What is Business Requirements Management?
+   It involves managing business requirements throughout their lifecycle, 
+   from identification and documentation through approval, changes and traceability.
+
+   In BABOK, the closely related knowledge area is called Requirements Life Cycle Management.
+
+# Important documents and tools
+- BRD / requirement documentation.
+- RTM (Requirements Traceability Matrix).
+- Change Request Log.
+- Jira.
+- Confluence.
+- Requirement Sign-off document.
+
+- Business Requirements Management involves managing requirements throughout their lifecycle, including documentation, validation, approval, traceability and change management.
+
+For example, 
+If a hospital initially requests online appointment booking and later adds online cancellation, I would document the change, assess its impact, update the requirements and RTM, obtain stakeholder approval and communicate the changes to the development and testing teams.  
+
+# Requirement Validation
+
+# What is Requirement Validation?
+    Requirement validation ensures that the documented requirements correctly
+    represent the business needs and will help achieve the expected business objectives.
+
+In simple words:
+
+Are we building the right solution for the business?
+Example
+Business objective: Reduce patient waiting time.
+
+Requirement: Patients should be able to view available doctor slots and book appointments online.
+
+As a BA, you validate:
+- Does this requirement address the business problem?
+- Does it meet patient and hospital expectations?
+- Is it aligned with the business objective?
+- Have the relevant stakeholders agreed?
+- Are there missing business rules?
+
+# Requirement Validation ensures that documented requirements meet business needs and support the expected business objectives.
+
+For example,
+If a hospital wants to reduce patient waiting time, I would review the online booking requirements with patients' representatives, receptionists and hospital management to confirm that the proposed functionality addresses their needs.
+
+I would resolve gaps, confirm stakeholder agreement and obtain approval before moving forward.
+
+   
+
 
