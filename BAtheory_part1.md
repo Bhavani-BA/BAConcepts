@@ -1,7 +1,7 @@
 # 
 ## Day 4 — Business Analyst Interview Preparation
 ## syllabus
-OOA, OOD and Enterprise Analysis
+### OOA, OOD and Enterprise Analysis
 - Object-oriented approach
 - Classes, objects, attributes and methods
 - Encapsulation, abstraction, inheritance and polymorphism
@@ -20,17 +20,17 @@ OOA, OOD and Enterprise Analysis
   # Question
   ## Object-Oriented Approach
   
- What is it?
-The object-oriented approach is a way of developing a system by organising it around objects that represent real-world things.
+ # What is it?
+   The object-oriented approach is a way of developing a system by organising it around objects that represent real-world things.
 
-An object has:
+## An object has:
 - Data (attributes): Information about it.
 - Behaviour (methods): Actions it can perform.
 - Hospital appointment example
 
 - # Question
 - ## BA role OOA
-- What does a BA do here?
+- ### What does a BA do here?
 As a Business Analyst, you help identify:
 1. What users and business stakeholders need.
 2. Which important objects the system must represent.
@@ -40,26 +40,28 @@ As a Business Analyst, you help identify:
 
 # Question
 ## 2. OOA — Object-Oriented Analysis
-What is OOA?
-OOA stands for Object-Oriented Analysis.
+### What is OOA?
+     OOA stands for Object-Oriented Analysis.
 
-It focuses on understanding the business problem and identifying the objects, their responsibilities and their relationships.
+  It focuses on understanding the business problem and identifying the objects, their responsibilities and their relationships.
 
-In simple words:
+# In simple words:
 
 OOA asks: What does the business need?
-Example
+
+# Example
 A hospital currently accepts appointments through phone calls. Patients complain that they cannot easily find available doctors or appointment slots.
 
 As a BA, you speak with patients, receptionists, doctors and hospital management.
 
-You identify:
+# You identify:
 - Patient
 - Doctor
 - Appointment
 - Payment
 - Notification
-You also identify business rules:
+- 
+# You also identify business rules:
 - A patient must be registered before booking.
 - A doctor must have an available slot.
 - A slot cannot be booked by two patients at the same time.
