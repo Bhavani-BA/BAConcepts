@@ -104,12 +104,14 @@ OOD asks: How should the system be designed?
 - ##  Class
 - A class is a blueprint for creating objects.
 
-## Example: Patient is a class that defines the information and actions associated with patients.
+## Example:
+Patient is a class that defines the information and actions associated with patients.
 
 ### Object
 An object is a specific instance of a class.
 
-# Example: A registered patient with Patient ID P101 is an object of the Patient class.
+# Example:
+A registered patient with Patient ID P101 is an object of the Patient class.
 
 # Remember:
 - Class = blueprint.
@@ -122,7 +124,8 @@ An object is a specific instance of a class.
 ## Hospital example:
     A payment system should protect sensitive payment information and allow access only through authorised operations.
 
-# As a BA, you might document security requirements such as:
+# As a BA,
+you might document security requirements such as:
 
 - Only authorised users can view payment details.
 - Sensitive information must be protected.
@@ -133,7 +136,8 @@ Encapsulation is a software design concept; it is not simply displaying a passwo
 
    Abstraction exposes the functionality a user needs while hiding unnecessary implementation details.
 
-# Example: A patient clicks Pay Now. The patient does not need to understand all the internal communication between the hospital system, payment service and bank.
+# Example:
+A patient clicks Pay Now. The patient does not need to understand all the internal communication between the hospital system, payment service and bank.
 
   The BA should specify what the user must see and what the system must do, including successful and failed payment scenarios.
   
@@ -141,7 +145,8 @@ Encapsulation is a software design concept; it is not simply displaying a passwo
 
    Inheritance allows one class to reuse or extend the characteristics of another class.
 
-# Example: Suppose a hospital system has a general Appointment class. InPersonAppointment and TeleconsultationAppointment could extend it.
+# Example:
+Suppose a hospital system has a general Appointment class. InPersonAppointment and TeleconsultationAppointment could extend it.
 
      The general appointment information might include appointment ID, date and status, while each specialised appointment could have additional details.
 
@@ -151,7 +156,23 @@ Encapsulation is a software design concept; it is not simply displaying a passwo
 
 Polymorphism allows the same operation or interface to behave differently depending on the object or implementation.
 
-# Example: A system may support a common processPayment() operation, while different payment providers implement the operation differently.
+# Example: 
+A system may support a common processPayment() operation, while different payment providers implement the operation differently.
 
 
+## Enterprise analysis
+Helps an organisation understand its business needs, objectives, problems and opportunities before selecting a solution.
+
+# For example
+In a pharmaceutical vaccination project, the business objective may be to reduce employee absenteeism. I would understand the existing absenteeism process, analyse the baseline data, identify the desired future state and define KPIs to measure success.
+
+Based on the analysis, the business can evaluate suitable solutions and estimate their costs, benefits and feasibility.
+
+# Feasibility analysis
+
+   Helps determine whether a proposed solution is practical.
+
+          I would consider technical, economic, operational and schedule feasibility. For example, before implementing an online hospital appointment system, I would help assess whether the existing system supports integration, whether the cost is justified, whether staff can adopt the process and whether the project can meet its deadline.
+
+          I would document the findings and risks so that stakeholders can make an informed decision.
 
