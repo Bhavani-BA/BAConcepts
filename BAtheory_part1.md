@@ -176,3 +176,56 @@ Based on the analysis, the business can evaluate suitable solutions and estimate
 
           I would document the findings and risks so that stakeholders can make an informed decision.
 
+# 7. Solution Options Analysis
+
+# What does it mean?
+  Solution options analysis means identifying and comparing different ways to solve a business problem.
+
+   A BA should not immediately assume that developing new software is the only solution.
+   
+# How should a BA compare the options?
+
+Consider:
+1. Business benefits.
+2. Implementation cost.
+3. Technical feasibility.
+4. Delivery time.
+5. User experience.
+6. Security and compliance.
+7. Integration with existing systems.
+8. Maintenance and support.
+The BA documents the comparison and helps stakeholders understand the trade-offs.
+
+# Interview point:
+   The best solution is not always the most technically advanced one. It is the option that best meets the business objectives within the    relevant constraints.
+
+#  Requirement Analysis and Prioritisation
+
+ This is one of the most important Day 4 topics.
+ 
+# Requirement analysis
+
+Requirement analysis means examining requirements to ensure they are clear, complete, consistent, feasible and testable.
+
+# Characteristics of a good requirement
+  A good requirement should be:
+  
+- # Clear: Easy to understand.
+- # Complete: Contains the information needed to understand it.
+- # Consistent: Does not conflict with other requirements.
+  # Feasible: Can realistically be implemented.
+- # Testable: Can be verified through testing.
+- # Traceable: Can be linked to its source and related work.
+- 
+# Requirement prioritisation
+# using MOSCOW 
+
+ [ ] Requirement analysis involves reviewing requirements to ensure they are clear, complete, consistent, feasible and testable.
+
+- [ ] Requirement prioritisation determines which requirements should be implemented first based on business value, risk, dependencies, cost and stakeholder needs.
+- [ ] 
+- [ ] For example, in a hospital appointment system, preventing double-booking is essential, whereas customising the screen theme may be a lower-priority enhancement. I can use the MoSCoW technique to classify requirements as Must have, Should have, Could have and Won't have this time.
+- [ ] 
+- [ ] If stakeholders disagree, I facilitate discussion, assess the business impact and document the agreed decision.
+
+
