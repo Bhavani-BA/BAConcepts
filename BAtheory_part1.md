@@ -74,3 +74,28 @@ Typical OOA activities
 6. Model requirements using appropriate diagrams, such as use case and class diagrams.
 Important: OOA is not the same as coding. It is primarily about analysing the problem and the requirements.
 
+# Question
+## What is OOD
+. OOD — Object-Oriented Design
+
+# What is OOD?
+ OOD stands for Object-Oriented Design.
+
+ It focuses on how the system should be structured to satisfy the requirements identified during analysis.
+
+# In simple words:
+
+OOD asks: How should the system be designed?
+
+# Example
+  During OOA, you identify that patients must book and cancel appointments.
+
+  During OOD, the technical team may design:
+- The classes and their attributes.
+- The methods that each class needs.
+- How classes communicate.
+- How the system checks slot availability.
+- How the booking service communicates with the payment gateway.
+- How the system handles errors and failed payments.
+
+
