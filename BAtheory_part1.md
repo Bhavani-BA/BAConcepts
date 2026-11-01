@@ -18,8 +18,9 @@ OOA, OOD and Enterprise Analysis
 - Gap analysis and impact analysis
 
   # Question
-  ##. Object-Oriented Approach
-What is it?
+  ## Object-Oriented Approach
+  
+ What is it?
 The object-oriented approach is a way of developing a system by organising it around objects that represent real-world things.
 
 An object has:
